@@ -1,0 +1,136 @@
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Wed 09 Sep 2015 04:30:17 AM PDT
+
+BeginCmp
+TimeStamp = /55EF92BC;
+Reference = BT1;
+ValeurCmp = Battery;
+IdModule  = electroscope_pth:BSPCMF-9VBATT-SNAP;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E1F1B1;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5349D140;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E1F0CA;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5349D0D7;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F0129D;
+Reference = Q1;
+ValeurCmp = Q_PNP_EBC;
+IdModule  = Discret:TO92-123;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F01011;
+Reference = Q2;
+ValeurCmp = Q_NPN_EBC;
+IdModule  = Discret:TO92-123;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F0123D;
+Reference = Q3;
+ValeurCmp = Q_PNP_EBC;
+IdModule  = Discret:TO92-123;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F010A0;
+Reference = Q4;
+ValeurCmp = Q_NPN_EBC;
+IdModule  = Discret:TO92-123;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F011FA;
+Reference = Q5;
+ValeurCmp = Q_PNP_EBC;
+IdModule  = Discret:TO92-123;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F0111A;
+Reference = Q6;
+ValeurCmp = Q_NPN_EBC;
+IdModule  = Discret:TO92-123;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E1F199;
+Reference = R1;
+ValeurCmp = 100Ω;
+IdModule  = Resistors_ThroughHole:Resistor_Vertical_RM5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E1F19F;
+Reference = R2;
+ValeurCmp = 1MΩ;
+IdModule  = Resistors_ThroughHole:Resistor_Vertical_RM5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E1F193;
+Reference = R3;
+ValeurCmp = 100KΩ;
+IdModule  = Resistors_ThroughHole:Resistor_Vertical_RM5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E1F1A5;
+Reference = R4;
+ValeurCmp = 100KΩ;
+IdModule  = Resistors_ThroughHole:Resistor_Vertical_RM5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E1F0B9;
+Reference = R5;
+ValeurCmp = 1MΩ;
+IdModule  = Resistors_ThroughHole:Resistor_Vertical_RM5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E1F1AB;
+Reference = R6;
+ValeurCmp = 100Ω;
+IdModule  = Resistors_ThroughHole:Resistor_Vertical_RM5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55EF983B;
+Reference = U1;
+ValeurCmp = ANT;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /55EF9AF0;
+Reference = U2;
+ValeurCmp = ANT;
+IdModule  = Connect:1pin;
+EndCmp
+
+EndListe

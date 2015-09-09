@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name electroscope_pth)(type KiCad)(uri ${KIPRJMOD}/../electroscope_pth.pretty)(options "")(descr ""))
+)
