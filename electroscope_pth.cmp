@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Wed 09 Sep 2015 04:30:17 AM PDT
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Wed 09 Sep 2015 08:51:57 AM PDT
 
 BeginCmp
 TimeStamp = /55EF92BC;
 Reference = BT1;
 ValeurCmp = Battery;
-IdModule  = electroscope_pth:BSPCMF-9VBATT-SNAP;
+IdModule  = 9VBATT_TH:9VBATT_TH;
 EndCmp
 
 BeginCmp
@@ -15,22 +15,8 @@ IdModule  = LEDs:LED-3MM;
 EndCmp
 
 BeginCmp
-TimeStamp = /5349D140;
-Reference = D2;
-ValeurCmp = LED;
-IdModule  = LEDs:LED-3MM;
-EndCmp
-
-BeginCmp
 TimeStamp = /52E1F0CA;
-Reference = D3;
-ValeurCmp = LED;
-IdModule  = LEDs:LED-3MM;
-EndCmp
-
-BeginCmp
-TimeStamp = /5349D0D7;
-Reference = D4;
+Reference = D2;
 ValeurCmp = LED;
 IdModule  = LEDs:LED-3MM;
 EndCmp
