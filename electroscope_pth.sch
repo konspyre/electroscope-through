@@ -1,37 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:ant
+EESchema Schematic File Version 4
 LIBS:electroscope_pth-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -46,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R R5
+L electroscope_pth-rescue:R R5
 U 1 1 52E1F0B9
 P 6330 5830
 F 0 "R5" V 6410 5830 40  0000 C CNN
@@ -57,7 +26,7 @@ F 3 "~" H 6330 5830 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D2
+L electroscope_pth-rescue:LED D2
 U 1 1 52E1F0CA
 P 6720 2750
 F 0 "D2" H 6720 2850 50  0000 C CNN
@@ -68,7 +37,7 @@ F 3 "~" H 6720 2750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R3
+L electroscope_pth-rescue:R R3
 U 1 1 52E1F193
 P 5590 5250
 F 0 "R3" V 5670 5250 40  0000 C CNN
@@ -79,7 +48,7 @@ F 3 "~" H 5590 5250 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L electroscope_pth-rescue:R R1
 U 1 1 52E1F199
 P 4910 4740
 F 0 "R1" V 4990 4740 40  0000 C CNN
@@ -90,7 +59,7 @@ F 3 "~" H 4910 4740 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L electroscope_pth-rescue:R R2
 U 1 1 52E1F19F
 P 5560 2100
 F 0 "R2" V 5640 2100 40  0000 C CNN
@@ -101,7 +70,7 @@ F 3 "~" H 5560 2100 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L electroscope_pth-rescue:R R4
 U 1 1 52E1F1A5
 P 6120 2130
 F 0 "R4" V 6200 2130 40  0000 C CNN
@@ -112,7 +81,7 @@ F 3 "~" H 6120 2130 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L electroscope_pth-rescue:R R6
 U 1 1 52E1F1AB
 P 6720 2170
 F 0 "R6" V 6800 2170 40  0000 C CNN
@@ -123,7 +92,7 @@ F 3 "~" H 6720 2170 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D1
+L electroscope_pth-rescue:LED D1
 U 1 1 52E1F1B1
 P 4910 5290
 F 0 "D1" H 4910 5390 50  0000 C CNN
@@ -134,7 +103,7 @@ F 3 "~" H 4910 5290 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 52EEA5AA
 P 4910 5610
 F 0 "#PWR01" H 4910 5610 30  0001 C CNN
@@ -145,7 +114,7 @@ F 3 "" H 4910 5610 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 52EEA5B0
 P 5590 5610
 F 0 "#PWR02" H 5590 5610 30  0001 C CNN
@@ -156,7 +125,7 @@ F 3 "" H 5590 5610 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR03
+L power:VCC #PWR03
 U 1 1 52EEA725
 P 4270 3180
 F 0 "#PWR03" H 4270 3280 30  0001 C CNN
@@ -167,7 +136,7 @@ F 3 "" H 4270 3180 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L power:GND #PWR04
 U 1 1 52EEA74B
 P 4270 3640
 F 0 "#PWR04" H 4270 3640 30  0001 C CNN
@@ -178,7 +147,7 @@ F 3 "" H 4270 3640 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR05
+L power:VCC #PWR05
 U 1 1 52EEA824
 P 6120 1810
 F 0 "#PWR05" H 6120 1910 30  0001 C CNN
@@ -189,7 +158,7 @@ F 3 "" H 6120 1810 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR06
+L power:VCC #PWR06
 U 1 1 52EEA82A
 P 5560 1760
 F 0 "#PWR06" H 5560 1860 30  0001 C CNN
@@ -200,7 +169,7 @@ F 3 "" H 5560 1760 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR07
+L power:VCC #PWR07
 U 1 1 52EEA8AC
 P 6720 1840
 F 0 "#PWR07" H 6720 1940 30  0001 C CNN
@@ -211,7 +180,7 @@ F 3 "" H 6720 1840 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR08
+L power:VCC #PWR08
 U 1 1 52EEA971
 P 4910 3830
 F 0 "#PWR08" H 4910 3930 30  0001 C CNN
@@ -222,7 +191,7 @@ F 3 "" H 4910 3830 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L power:GND #PWR09
 U 1 1 52EEAB28
 P 6330 6220
 F 0 "#PWR09" H 6330 6220 30  0001 C CNN
@@ -233,7 +202,7 @@ F 3 "" H 6330 6220 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L power:GND #PWR010
 U 1 1 52E1F050
 P 6720 3610
 F 0 "#PWR010" H 6720 3610 30  0001 C CNN
@@ -292,7 +261,7 @@ Wire Wire Line
 Wire Wire Line
 	6120 2280 6120 2800
 $Comp
-L Battery BT1
+L electroscope_pth-rescue:Battery BT1
 U 1 1 55EF92BC
 P 4270 3420
 F 0 "BT1" H 4370 3470 50  0000 L CNN
@@ -307,7 +276,7 @@ Wire Wire Line
 Wire Wire Line
 	4270 3570 4270 3640
 $Comp
-L ANT U1
+L ant:ANT U1
 U 1 1 55EF983B
 P 5010 1870
 F 0 "U1" H 5010 2070 60  0000 C CNN
@@ -318,7 +287,7 @@ F 3 "" H 5010 1870 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ANT U2
+L ant:ANT U2
 U 1 1 55EF9AF0
 P 6970 4400
 F 0 "U2" H 6970 4600 60  0000 C CNN
@@ -337,7 +306,7 @@ Wire Wire Line
 Wire Wire Line
 	5010 2700 5260 2700
 $Comp
-L Q_NPN_EBC Q2
+L electroscope_pth-rescue:Q_NPN_EBC Q2
 U 1 1 55F01011
 P 5460 2700
 F 0 "Q2" H 5760 2750 50  0000 R CNN
@@ -348,7 +317,7 @@ F 3 "" H 5460 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NPN_EBC Q4
+L electroscope_pth-rescue:Q_NPN_EBC Q4
 U 1 1 55F010A0
 P 6020 3000
 F 0 "Q4" H 6320 3050 50  0000 R CNN
@@ -359,7 +328,7 @@ F 3 "" H 6020 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NPN_EBC Q6
+L electroscope_pth-rescue:Q_NPN_EBC Q6
 U 1 1 55F0111A
 P 6620 3280
 F 0 "Q6" H 6920 3330 50  0000 R CNN
@@ -370,7 +339,7 @@ F 3 "" H 6620 3280 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_PNP_EBC Q5
+L electroscope_pth-rescue:Q_PNP_EBC Q5
 U 1 1 55F011FA
 P 6430 5290
 F 0 "Q5" H 6730 5340 50  0000 R CNN
@@ -381,7 +350,7 @@ F 3 "" H 6430 5290 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Q_PNP_EBC Q3
+L electroscope_pth-rescue:Q_PNP_EBC Q3
 U 1 1 55F0123D
 P 5690 4730
 F 0 "Q3" H 5990 4780 50  0000 R CNN
@@ -392,7 +361,7 @@ F 3 "" H 5690 4730 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Q_PNP_EBC Q1
+L electroscope_pth-rescue:Q_PNP_EBC Q1
 U 1 1 55F0129D
 P 5010 4160
 F 0 "Q1" H 5310 4210 50  0000 R CNN
