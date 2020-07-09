@@ -4,6 +4,8 @@ This is a similar board to the [surface mount electroscope](https://github.com/d
 
 ![kicad's render of the electroscope board](electroscope.png)
 
+<a href="https://oshpark.com/shared_projects/JK9TLh1I"><img src="https://oshpark.com/packs/media/images/badge-84bb0776ea53b1f532c02df323a90c88.png" alt="Order from OSH Park"></img></a>
+
 ### Bill of Materials
 
 This BOM specifies the amount needed for _one_ board. Parts have been translated from their surface mount equivalents.
