@@ -12,8 +12,8 @@ This BOM specifies the amount needed for _one_ board. Parts have been translated
 
 | Quantity | Description | Digikey Part Number | Board Placement |
 | -------- | ----------- | ----------- | --------------- |
-| 3        | 2N3906      | [2N3906D26ZCT-ND](https://www.digikey.com/products/en?keywords=2N3906D26ZCT-ND) | Right (label: 2N3906) |
-| 3 	   | 2N3904	 | [2N3904FS-ND](https://www.digikey.com/products/en?keywords=2N3904FS-ND) | Left (label: 2N3904) |
+| 3        | 2N3906      | [2N3906D26ZCT-ND](https://www.digikey.com/products/en?keywords=2N3906D26ZCT-ND) | Left (label: PNP) |
+| 3 	   | 2N3904	 | [2N3904FS-ND](https://www.digikey.com/products/en?keywords=2N3904FS-ND) | Right (label: NPN) |
 | 2        | 100 ohm resistor | [100QBK-ND](https://www.digikey.com/product-detail/en/CFR-25JB-52-100R/100QBK-ND/246) | Bottom (label: 100 ohm) |
 | 2        | 100k ohm resistor | [100KQBK-ND](https://www.digikey.com/products/en?keywords=100kQBK-ND) | Middle (label: 100k ohm) |
 | 2	   | 1M ohm resistor | [1.0MQBK-ND](https://www.digikey.com/product-detail/en/yageo/CFR-25JB-52-1M/1.0MQBK-ND/99) | Top (label: 1M ohm) |
