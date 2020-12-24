@@ -4,7 +4,7 @@ This is a similar board to the [surface mount electroscope](https://github.com/d
 
 ![kicad's render of the electroscope board](electroscope.png)
 
-<a href="https://oshpark.com/shared_projects/JK9TLh1I"><img src="https://oshpark.com/packs/media/images/badge-84bb0776ea53b1f532c02df323a90c88.png" alt="Order from OSH Park"></img></a>
+<a href="https://oshpark.com/shared_projects/JK9TLh1I"><img src="https://oshpark.com/packs/media/images/badge-5f4e3bf4bf68f72ff88bd92e0089e9cf.png" alt="Order from OSH Park"></img></a>
 
 ### Bill of Materials
 
